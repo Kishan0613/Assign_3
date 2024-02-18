@@ -11,7 +11,7 @@ public class Student_Course extends Student {
         for (int i = 0; i < marks.length; i++) {
             for (int j = 0; j < marks[i].length; j++) {
                 if (marks[i][j] < 40) {
-                    System.out.println("kishan " + (i + 1) + " scored less than 40 in " + subjects[j]);
+                    System.out.println("kishan " + (i + 1) + " scored less than 40 in the " + subjects[j]);
                 }
             }     
         }
